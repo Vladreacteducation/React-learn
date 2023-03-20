@@ -25,7 +25,7 @@ const Counter = () => {
     setTags((prevState) => prevState.filter((tag) => tag !== id));
     // console.log(id);
   };
-
+  // return function
   return (
     <>
       <div>
